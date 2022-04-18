@@ -1,0 +1,69 @@
+1. 
+Name:   youtube.com
+Address: 172.217.1.14
+Name:   youtube.com
+Address: 2607:f8b0:400b:804::200e
+
+2.
+Name:   blizzard.com
+Address: 137.221.106.104
+
+3.
+Name:   bing.com
+Address: 13.107.21.200
+Name:   bing.com
+Address: 204.79.197.200
+Name:   bing.com
+Address: 2620:1ec:c11::200
+
+4.
+Server:         127.0.0.53
+Address:        127.0.0.53#53
+
+Non-authoritative answer:
+Name:   yahoo.com
+Address: 74.6.143.25
+Name:   yahoo.com
+Address: 98.137.11.163
+Name:   yahoo.com
+Address: 98.137.11.164
+Name:   yahoo.com
+Address: 74.6.143.26
+Name:   yahoo.com
+Address: 74.6.231.21
+Name:   yahoo.com
+Address: 74.6.231.20
+Name:   yahoo.com
+Address: 2001:4998:124:1507::f000
+Name:   yahoo.com
+Address: 2001:4998:44:3507::8000
+Name:   yahoo.com
+Address: 2001:4998:24:120d::1:1
+Name:   yahoo.com
+Address: 2001:4998:24:120d::1:0
+Name:   yahoo.com
+Address: 2001:4998:44:3507::8001
+Name:   yahoo.com
+Address: 2001:4998:124:1507::f001
+
+5.
+Server:         127.0.0.53
+Address:        127.0.0.53#53
+
+Non-authoritative answer:
+Name:   ufc.com
+Address: 151.101.194.133
+Name:   ufc.com
+Address: 151.101.130.133
+Name:   ufc.com
+Address: 151.101.66.133
+Name:   ufc.com
+Address: 151.101.2.133
+Name:   ufc.com
+Address: 2a04:4e42::645
+Name:   ufc.com
+Address: 2a04:4e42:400::645
+Name:   ufc.com
+Address: 2a04:4e42:600::645
+Name:   ufc.com
+Address: 2a04:4e42:200::645

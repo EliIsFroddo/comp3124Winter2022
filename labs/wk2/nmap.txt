@@ -1,0 +1,61 @@
+root@comp3134Winter2022:~# nmap google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-04-14 21:02 UTC
+Nmap scan report for google.com (142.251.32.78)
+Host is up (0.0014s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 142.251.32.78: yyz12s07-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.57 seconds
+
+
+root@comp3134Winter2022:~# nmap -p 443 gblearn.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-04-14 21:06 UTC
+Nmap scan report for gblearn.com (209.172.60.196)
+Host is up (0.0095s latency).
+rDNS record for 209.172.60.196: george-dreams.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.17 seconds
+
+root@comp3134Winter2022:~# nmap -p 443 gblearn.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-04-14 21:06 UTC
+Nmap scan report for gblearn.com (209.172.60.196)
+Host is up (0.0095s latency).
+rDNS record for 209.172.60.196: george-dreams.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.17 seconds
+root@comp3134Winter2022:~# nmap -p 80-443 gblearn.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-04-14 21:08 UTC
+Nmap scan report for gblearn.com (209.172.60.196)
+Host is up (0.0089s latency).
+rDNS record for 209.172.60.196: george-dreams.com
+Not shown: 359 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+110/tcp open  pop3
+111/tcp open  rpcbind
+143/tcp open  imap
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.12 seconds
+
+root@comp3134Winter2022:~# nmap -f minecraft.net
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-04-14 21:08 UTC
+Nmap scan report for minecraft.net (99.86.60.52)
+Host is up (0.0011s latency).
+Other addresses for minecraft.net (not scanned): 99.86.60.62 99.86.60.51 99.86.60.58
+rDNS record for 99.86.60.52: server-99-86-60-52.yto50.r.cloudfront.net
+All 1000 scanned ports on minecraft.net (99.86.60.52) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 21.13 seconds
+
+
